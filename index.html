@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<input lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Transline Travels</title>
+    <link rel="stylesheet" href="public/style.css">
+
+  </head>
+  <body>
+
+<p>Are You Looking to travel the world?
+    Welcome to Transline Travels, where we can show you the world!!
+</p>
+<img src="public/pexels-anne-cecile-robert-2152415877-32268896.jpg">
+
+    <h1>Registration Form </h1>
+
+<form target="_self">
+    
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Your Name:"> <br>
+
+    <label for="lname">Second Name:</label> <br>
+    <input type="text" id="lname" name="lname" placeholder="Last Name:"> <br>
+
+    <label for="email">Your Email:</label> <br>
+    <input type="email" id="email" name="email" placeholder="abc@gmail.com" required="required"> <br>
+
+    <label for="pwd">Your Password:</label> <br>
+    <input type="password" id="pwd" name="pwd" placeholder="Enter your password" minlength="20 characters" required="required"> <br>
+
+    <label for="date">Enter Date:</label> <br>
+    <input type="date"> <br>
+
+    <label for="drop">Select Country you want to visit:</label> <br>
+    <select name="country" id="drop">
+        <option> France</option>
+        <option> Italy </option>
+        <option> Australia </option>
+        <option> Rome </option>
+        <option> Greece </option>
+    </select>
+    <br>
+<p> Select preffered mode of travel: </p>
+    <input type="checkbox" id="travel1" name="travel1" value="car" multiple>
+    <label for="travel1">By car</label><br>
+
+    <input type="checkbox" id="travel2" name="travel2" value="train" multiple>
+    <label for="travel2"> By Train </label> <br>
+
+    <input type="checkbox" id="travel3" name="travel3" value="plane" multiple>
+    <label for="travel3">By Plane </label> <br>
+
+
+<input type="button" value="Submit">
+<input type="button" value="Reset">
+</form>
+
+<p>Feel free to contact the numbers below for more information</p>
+<table>
+    <thead>
+        <tr>
+            <th> Name</th>
+            <th> Address</th>
+            <th> Mobile</th>
+            <th> Emails</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe </td>
+            <td> 21 Jump Street</td>
+            <td> 0758435926</td>
+            <td> johndoe@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td> Marc McKinney </td>
+            <td> 45 Ilya Pump</td>
+            <td> 0764537291</td>
+            <td> mckinneyisrad@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td> Janet Johnson </td>
+            <td> 67 North Avenue </td>
+            <td> 0764527391 </td>
+            <td> johnsons@gmail.com </td>
+        </tr>
+    </tbody>
+</table>
+
+  </body>
+</html>
